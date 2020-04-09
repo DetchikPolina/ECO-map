@@ -1,0 +1,140 @@
+{
+  "features": [
+    {
+      "ID": 1,
+      "NAME": "РЭТЭКО",
+      "ADDRESS": "г.Обь, ул. Арсенальная, 1",
+      "properties": {
+        "PAPER": true,
+        "GLASS": false,
+        "PLASTIC": true,
+        "CLOTHES": false,
+        "METAL": true,
+        "DANGEROUS": true,
+        "BATTERIES": false,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [55.005850, 82.703290]
+    },
+    {
+      "ID": 2,
+      "NAME": "Сырьевая альтернатива",
+      "ADDRESS": "г.Бердск, ул. Промышленная, 18 к 1",
+      "properties": {
+        "PAPER": true,
+        "GLASS": false,
+        "PLASTIC": false,
+        "CLOTHES": false,
+        "METAL": false,
+        "DANGEROUS": false,
+        "BATTERIES": false,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [53.963680, 38.342810]
+    },
+    {
+      "ID": 3,
+      "NAME": "Дом молодежи МАЯК ",
+      "ADDRESS": "г.Новосибирск, ул.Русская, 1а",
+      "properties": {
+        "PAPER": true,
+        "GLASS": false,
+        "PLASTIC": false,
+        "CLOTHES": false,
+        "METAL": false,
+        "DANGEROUS": false,
+        "BATTERIES": false,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [54.965610, 82.964230]
+    },
+    {
+      "ID": 4,
+      "NAME": "НГУ",
+      "ADDRESS": "г.Новосибирск, ул. Пирогова, 1",
+      "properties": {
+        "PAPER": true,
+        "GLASS": false,
+        "PLASTIC": false,
+        "CLOTHES": false,
+        "METAL": false,
+        "DANGEROUS": false,
+        "BATTERIES": false,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [54.842970, 83.091130]
+    },
+    {
+      "ID": 5,
+      "NAME": "ТЕХНОСИТИ",
+      "ADDRESS": "г. Новосибирск, пр. Академика Лаврентьева, 4",
+      "properties": {
+        "PAPER": false,
+        "GLASS": false,
+        "PLASTIC": false,
+        "CLOTHES": false,
+        "METAL": false,
+        "DANGEROUS": false,
+        "BATTERIES": true,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [54.849730, 83.103080]
+    },
+    {
+      "ID": 6,
+      "NAME": "ДК ЮНОСТЬ",
+      "ADDRESS": "г. Новосибирск, ул. Строителей, 21",
+      "properties": {
+        "PAPER": false,
+        "GLASS": false,
+        "PLASTIC": false,
+        "CLOTHES": true,
+        "METAL": false,
+        "DANGEROUS": false,
+        "BATTERIES": false,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [54.859760, 83.079930]
+    },
+    {
+      "ID": 7,
+      "NAME": "Пункт приема вторсырья",
+      "ADDRESS": "г. Новосибирск, ул. 40 лет Комсомола, 6",
+      "properties": {
+        "PAPER": true,
+        "GLASS": true,
+        "PLASTIC": true,
+        "CLOTHES": false,
+        "METAL": true,
+        "DANGEROUS": false,
+        "BATTERIES": false,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [54.859120, 82.981920]
+    },
+    {
+      "ID": 8,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г. Новосибирск, ул. Барханная, 24",
+        "properties": {
+        "PAPER": false,
+        "GLASS": true,
+        "PLASTIC": true,
+        "CLOTHES": false,
+        "METAL": true,
+        "DANGEROUS": false,
+        "BATTERIES": false,
+        "BULBS": false,
+        "APPLIANCES": false
+      },
+      "coordinates": [54.962990, 82.962480]
+    }
+  ]
+}
