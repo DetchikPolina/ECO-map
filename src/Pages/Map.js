@@ -5,14 +5,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/esm/Col";
 import Nav from "react-bootstrap/Nav";
 import MyGoogleMapComponent  from "../card";
-import * as recycleData from "../data/recycle";
 
 class Map extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            type: 'ALL',
+            cord: props.cord,
+            address: props.address,
+        };
+    };
+
     updateType = (type) => {
         this.setState({
-            type: 'ALL' // значение по умолчанию
+            type: type || 'ALL', // значение по умолчанию
         })
     };
+
     render() {
         return (
             <div style={{marginTop: "100px", border: "none"}}>
@@ -24,65 +33,83 @@ class Map extends Component {
 
                                     <div className="nav">
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.props.updateType("PAPER"); // если клинули на бумагу, то тип - бумага
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "PAPER" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("PAPER"); // если клинули на бумагу, то тип - бумага
+                                                }}>
                                                 Бумага
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "GLASS";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "GLASS" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("GLASS");
+                                                }}>
                                                 Стекло
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "PLASTIC";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "PLASTIC" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("PLASTIC");
+                                                }}>
                                                 Пластик
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "CLOTHES";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "CLOTHES" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("CLOTHES");
+                                                }}>
                                                 Одежда
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "METAL";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "METAL" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("METAL");
+                                                }}>
                                                 Металл
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "DANGEROUS";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "DANGEROUS" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("DANGEROUS");
+                                                }}>
                                                 Опасные&nbsp;отходы
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "BATTERIES";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "BATTERIES" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("BATTERIES");
+                                                }}>
                                                 Батарейки
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "BULBS";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "BULBS" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("BULBS");
+                                                }}>
                                                 Лампочки
                                             </div>
                                         </div>
                                         <div className="nav-item">
-                                            <div className={`nav-link`} onClick={() => {
-                                                this.type = "APPLIANCES";
-                                            }}>
+                                            <div
+                                                className={`nav-link property ${this.state.type === "APPLIANCES" ? "active" : ""}`}
+                                                onClick={() => {
+                                                    this.updateType("APPLIANCES");
+                                                }}>
                                                 Бытовая&nbsp;техника
                                             </div>
                                         </div>
@@ -91,8 +118,11 @@ class Map extends Component {
                             </Col>
                             <Col sm={8}>
                                 <MyGoogleMapComponent
+                                    type={this.state.type}
 
-                                    type={this.type}
+                                    cord={this.state.cord}
+
+                                    address={this.state.address}
 
                                     googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyBW2Li7ZGekVpZOqsNJc53OKMm_xFrxcHw`}
 

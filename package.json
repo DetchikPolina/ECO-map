@@ -11,12 +11,13 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.1",
+    "react-google-autocomplete": "^1.1.4",
     "react-google-maps": "^9.4.5",
     "react-icons": "^3.9.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "recompose": "latest",
+    "recompose": "^0.30.0",
     "yandex-map-react": "^1.1.1"
   },
   "scripts": {
@@ -42,6 +43,8 @@
   },
   "devDependencies": {
     "@material-ui/core": "^4.9.7",
-    "google-map-react": "^1.1.7"
+    "google-map-react": "^1.1.7",
+    "react-bootstrap-icons": "^1.0.1-alpha3",
+    "react-geosuggest": "^2.12.1"
   }
 }

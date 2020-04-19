@@ -4,137 +4,309 @@
       "ID": 1,
       "NAME": "РЭТЭКО",
       "ADDRESS": "г.Обь, ул. Арсенальная, 1",
-      "properties": {
-        "PAPER": true,
-        "GLASS": false,
-        "PLASTIC": true,
-        "CLOTHES": false,
-        "METAL": true,
-        "DANGEROUS": true,
-        "BATTERIES": false,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
+      "type": ["BATTERIES", "METAL", "PLASTIC", "DANGEROUS"],
       "coordinates": [55.005850, 82.703290]
     },
     {
       "ID": 2,
       "NAME": "Сырьевая альтернатива",
       "ADDRESS": "г.Бердск, ул. Промышленная, 18 к 1",
-      "properties": {
-        "PAPER": true,
-        "GLASS": false,
-        "PLASTIC": false,
-        "CLOTHES": false,
-        "METAL": false,
-        "DANGEROUS": false,
-        "BATTERIES": false,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
-      "coordinates": [53.963680, 38.342810]
+      "type": ["PAPER"],
+      "coordinates": [54.748600, 83.138580]
     },
     {
       "ID": 3,
       "NAME": "Дом молодежи МАЯК ",
       "ADDRESS": "г.Новосибирск, ул.Русская, 1а",
-      "properties": {
-        "PAPER": true,
-        "GLASS": false,
-        "PLASTIC": false,
-        "CLOTHES": false,
-        "METAL": false,
-        "DANGEROUS": false,
-        "BATTERIES": false,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
+      "type": ["PAPER"],
       "coordinates": [54.965610, 82.964230]
     },
     {
       "ID": 4,
       "NAME": "НГУ",
       "ADDRESS": "г.Новосибирск, ул. Пирогова, 1",
-      "properties": {
-        "PAPER": true,
-        "GLASS": false,
-        "PLASTIC": false,
-        "CLOTHES": false,
-        "METAL": false,
-        "DANGEROUS": false,
-        "BATTERIES": false,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
+      "type": ["PAPER"],
       "coordinates": [54.842970, 83.091130]
     },
     {
       "ID": 5,
       "NAME": "ТЕХНОСИТИ",
       "ADDRESS": "г. Новосибирск, пр. Академика Лаврентьева, 4",
-      "properties": {
-        "PAPER": false,
-        "GLASS": false,
-        "PLASTIC": false,
-        "CLOTHES": false,
-        "METAL": false,
-        "DANGEROUS": false,
-        "BATTERIES": true,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
+      "type": ["BATTERIES"],
       "coordinates": [54.849730, 83.103080]
     },
     {
       "ID": 6,
       "NAME": "ДК ЮНОСТЬ",
       "ADDRESS": "г. Новосибирск, ул. Строителей, 21",
-      "properties": {
-        "PAPER": false,
-        "GLASS": false,
-        "PLASTIC": false,
-        "CLOTHES": true,
-        "METAL": false,
-        "DANGEROUS": false,
-        "BATTERIES": false,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
+      "type": ["CLOTHES"],
       "coordinates": [54.859760, 83.079930]
     },
     {
       "ID": 7,
       "NAME": "Пункт приема вторсырья",
       "ADDRESS": "г. Новосибирск, ул. 40 лет Комсомола, 6",
-      "properties": {
-        "PAPER": true,
-        "GLASS": true,
-        "PLASTIC": true,
-        "CLOTHES": false,
-        "METAL": true,
-        "DANGEROUS": false,
-        "BATTERIES": false,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
+      "type": ["PAPER", "METAL", "GLASS"],
       "coordinates": [54.859120, 82.981920]
     },
     {
       "ID": 8,
       "NAME": "ПОЛИМЕР РЕЦИКЛ",
       "ADDRESS": "г. Новосибирск, ул. Барханная, 24",
-        "properties": {
-        "PAPER": false,
-        "GLASS": true,
-        "PLASTIC": true,
-        "CLOTHES": false,
-        "METAL": true,
-        "DANGEROUS": false,
-        "BATTERIES": false,
-        "BULBS": false,
-        "APPLIANCES": false
-      },
+      "type": ["GLASS", "METAL", "PLASTIC"],
       "coordinates": [54.962990, 82.962480]
+    },
+    {
+      "ID": 9,
+      "NAME": "СТАНЦИЯ ЮНЫХ НАТУРАЛИСТОВ",
+      "ADDRESS": "г.Новосибирск, Краснообск, 71",
+      "type": ["PAPER"],
+      "coordinates": [55.036350, 82.999820]
+    },
+    {
+      "ID": 10,
+      "NAME": "АБС ПЛАСТИК",
+      "ADDRESS": "г.Новосибирск, Станционная 2-я, 33/4",
+      "type": ["PLASTIC"],
+      "coordinates": [54.977330, 82.858740]
+    },
+    {
+      "ID": 11,
+      "NAME": "МБУ Молодежный",
+      "ADDRESS": "г.Новосибирск, Саввы Кожевникова, 9/1",
+      "type": ["PAPER"],
+      "coordinates": [54.963660, 82.968610]
+    },
+    {
+      "ID": 12,
+      "NAME": "Добробокс",
+      "ADDRESS": "г.Новосибирск, пр-д энергетиков 8",
+      "type": ["CLOTHES"],
+      "coordinates": [55.011130, 82.874270]
+    },
+    {
+      "ID": 13,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, связистов 161/1",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.977240, 82.835970]
+    },
+    {
+      "ID": 14,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, сибиряков гвардейцев 61",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.977240, 82.835970]
+    },
+    {
+      "ID": 15,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, петухова 69/3",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.997680, 82.905630]
+    },
+    {
+      "ID": 16,
+      "NAME": "КОНТЕЙНЕР ДЛЯ БАТАРЕЕК \"БОКСИ\"",
+      "ADDRESS": "г.Новосибирск, ул. Петухова, 73",
+      "type": ["BATTERIES"],
+      "coordinates": [54.940550, 82.857320]
+    },
+    {
+      "ID": 17,
+      "NAME": "КОНТЕЙНЕР СПАСИБОШОП",
+      "ADDRESS": "г.Новосибирск, Троллейная, 130а",
+      "type": ["CLOTHES"],
+      "coordinates": [54.976910, 82.859180]
+    },
+    {
+      "ID": 18,
+      "NAME": "КОНТЕЙНЕР ДЛЯ БАТАРЕЕК \"БОКСИ\"",
+      "ADDRESS": "г.Новосибирск, Кирзаводская ул., 1А",
+      "type": ["BATTERIES"],
+      "coordinates": [54.972130, 82.849810]
+    },
+    {
+      "ID": 19,
+      "NAME": "ЭКОЦЕНТР \"ПРОСВЕТ\"",
+      "ADDRESS": "г.Новосибирск, пр. Карла Маркса, 30, 787",
+      "type": ["PAPER", "CLOTHES", "BATTERIES"],
+      "coordinates": [54.987190, 82.906220]
+    },
+    {
+      "ID": 20,
+      "NAME": "КОНТЕЙНЕРЫ ДЛЯ МАКУЛАТУРЫ \"ДОБРОЕ ДЕЛО\"",
+      "ADDRESS": "г.Новосибирск, Геодезическая, 8",
+      "type": ["PAPER"],
+      "coordinates": [54.987940, 82.906010]
+    },
+    {
+      "ID": 21,
+      "NAME": "АНО \"АИКТО \"АСТРУМ\" (КОНТЕЙНЕР ПРОЕКТА \"ДОБРОЕ ДЕЛО\")",
+      "ADDRESS": "г.Новосибирск, Титова, 34",
+      "type": ["PAPER"],
+      "coordinates": [54.982110, 82.867650]
+    },
+    {
+      "ID": 22,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, римского корсакова 2",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.980690, 82.883400]
+    },
+    {
+      "ID": 23,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, выставочная 6",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.996720, 82.896240]
+    },
+    {
+      "ID": 24,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, степная 6",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.939670, 82.976400]
+    },
+    {
+      "ID": 25,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, серафимовича 25",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.976050, 82.881600]
+    },
+    {
+      "ID": 26,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, вертковская 33",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.975410, 82.882020]
+    },
+    {
+      "ID": 27,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, римского корсакова 26",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.974920, 82.885310]
+    },
+    {
+      "ID": 28,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, вертковская 5/1",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.074770, 83.004280]
+    },
+    {
+      "ID": 29,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, вертковская 8",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.964580, 83.128170]
+    },
+    {
+      "ID": 30,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, связистов 161/1",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.977242, 82.835968]
+    },
+    {
+      "ID": 31,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, выборная 241",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.990130, 83.053180]
+    },
+    {
+      "ID": 32,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, Ключ-камышенское Плато 14/1",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.988220, 83.043860]
+    },
+    {
+      "ID": 33,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, Ключ-камышенское Плато 12",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.987450, 83.043900]
+    },
+    {
+      "ID": 34,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, ключ-камышенское плато 271/3",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.986540, 83.039440]
+    },
+    {
+      "ID": 35,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, ключ-камышенское плато 271/2",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.984870, 83.039410]
+    },
+    {
+      "ID": 36,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, выборная 139",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.008210, 83.023350]
+    },
+    {
+      "ID": 37,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, выборная 144/1",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.074770, 83.004280]
+    },
+    {
+      "ID": 38,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, Выборная 99/4",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.0042262, 83.0132315]
+    },
+    {
+      "ID": 39,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, Выборная 89/2",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.0014005, 83.012249]
+    },
+    {
+      "ID": 40,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, зеленый бор 5",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.0012762, 83.007591]
+    },
+    {
+      "ID": 41,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "Новосибирск, выборная 122/2",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [54.999763, 83.011227]
+    },
+    {
+      "ID": 42,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, выборная 106/1",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.074770, 83.004280]
+    },
+    {
+      "ID": 43,
+      "NAME": "ПОЛИМЕР РЕЦИКЛ",
+      "ADDRESS": "г.Новосибирск, инская 12",
+      "type": ["GLASS", "METAL", "PLASTIC"],
+      "coordinates": [55.006900, 82.943510]
+    },
+    {
+      "ID": 44,
+      "NAME": "АКЦИЯ \"ЗЕЛЕНАЯ БЕЛКА\"",
+      "ADDRESS": "г.Новосибирск, Выборная 115/2",
+      "type": ["GLASS", "METAL", "PLASTIC", "PAPER", "BATTERIES", "APPLIANCES"],
+      "coordinates": [54.954910, 82.962500]
     }
   ]
 }
