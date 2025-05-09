@@ -14,8 +14,8 @@
     "react-google-autocomplete": "^1.1.4",
     "react-google-maps": "^9.4.5",
     "react-icons": "^3.9.0",
-    "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2",
+    "react-router": "^7.5.2",
+    "react-router-dom": "^7.5.2",
     "react-scripts": "3.4.0",
     "recompose": "^0.30.0",
     "yandex-map-react": "^1.1.1"
